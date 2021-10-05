@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Fun1 from './funtofuncomponent/Fun1';
+import Fun2 from './funtofuncomponent/Fun2';
+ function  App(){
+    return(
+    <div>
+    {/* <h1>hello</h1> */}
+    
+    <Fun1/>
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
     </div>
-  );
-}
+    )
 
-export default App;
+
+}
+ export default App;
+// let App=()=>{
+//   return (
+//   <div>
+//     <h1>hei...</h1>
+//     <h2>heiiii...</h2> 
+//     <h3>whatsupwe...</h3>
+//     </div>)
+   
+// };
+// export default App;
